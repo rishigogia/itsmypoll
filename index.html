@@ -1,9 +1,733 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
+<head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>ItsMyPoll | My voice - My Opinion</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<style>
+		BODY {
+			background-color: #3cf;
+			color: #03c;
+			padding-top: 55px;
+		}
+	</style>
 </head>
 <body>
+	<div class="container-fluid">
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-brand">ItsMyPoll</div>
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Login<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li>
+									<div class="form-group">
+										<form class="navbar-form">
+											<div class="input-group">
+												<input class="form-control" placeholder="Username" type="text" id="username">
+											</div>
+											<div class="input-group">
+												<input class="form-control" placeholder="Password" type="password" id="password">
+											</div>
+											<div class="input-group">
+												<button type="submit" class="btn btn-default">Login</button>
+											</div>
+										</form>
+									</div>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					Hi
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					Hello
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
