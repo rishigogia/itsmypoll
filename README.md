@@ -1,4 +1,0 @@
-itsmypoll
-=========
-
-Its My Poll
